@@ -9,14 +9,14 @@ namespace Repetition{
 
             int counter = 0;
 
-            while( counter < 10){
+            while(counter < 10){
                 int counter2 = counter;
 
                 while (counter2 < 5){
-                    Console.WriteLine(name);
+                    Console.Write(name);
                     counter2++;
-                    Console.WriteLine(counter2);
                 }
+                Console.WriteLine();
                 counter++;
             }
             Console.WriteLine("Goodbye " + name);
